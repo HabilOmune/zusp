@@ -1,0 +1,22 @@
+ [
+	{
+		"$id": "Nairobi-Mombasa",
+		"treavel_hours": "10",
+		"morning_departure": "8:00am",
+		"night_departure": "9:00pm",
+		"price": 2500,
+		"stop1":"Nairobi",
+		"stop2":"Mombasa",
+		"stop3":"Midway"
+	},
+		{
+		"$id": "Nairobi-Homabay",
+		"treavel_hours": "7",
+		"morning_departure": "8:00am",
+		"night_departure": "9:00pm",
+		"price": 1000,
+		"stop1":"Nairobi",
+		"stop2":"Homabay",
+		"stop3":"Midway"
+	}
+]

@@ -1,0 +1,349 @@
+﻿body {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  background-color: white;
+  font-family:RobotoDraftRegular;
+  overflow-x: hidden;
+
+}
+
+@font-face {
+    font-family: 'MAXWELL REGULAR';
+    src: url('../lib/bootstrap/fonts/MAXWELL REGULAR.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bakersfield Bold';
+    src: url('../lib/bootstrap/fonts/Bakersfield Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Bakersfield Light';
+    src: url('../lib/bootstrap/fonts/Bakersfield Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Dual-300';
+    src: url('../lib/bootstrap/fonts/Dual-300.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'RobotoDraftRegular';
+    src: url('../fonts/RobotoDraftRegular.woff') format('woff');
+}
+
+
+@font-face {
+    font-family: 'RobotoDraftMedium';
+    src: url('../fonts/RobotoDraftMedium.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'RobotoDraftBold';
+    src: url('../fonts/RobotoDraftBold.woff') format('woff');
+}
+
+
+
+
+.alertcustom{
+    position:fixed;
+    margin-top:-40vh;
+    z-index:10000000000;
+}
+.collapsible-header {
+    padding:20px;
+}
+
+.collapsible-body{
+    padding:10px;
+}
+
+.tinyalert{
+    max-width:20vw;
+    width:20vw;
+}
+
+
+.scrollable{
+    overflow-y:scroll;
+}
+.maxwell{
+    font-family:'MAXWELL REGULAR';
+}
+tr{
+    font-size:15px;
+}
+.login-error{
+    font-family:'Dual-300';
+    font-size:14px;
+}
+
+.transcript{
+    font-family:RobotoDraftMedium;
+    font-size:15px;
+    color:dimgrey;
+}
+
+a:hover{
+  text-decoration: none;
+}
+
+hr{
+    margin-top:3px;
+}
+
+.biolabel{
+font-family:Dual-300;
+font-size:16px;
+}
+.biodetail{
+    font-family:Dual-300;
+    color: black;
+    font-size:16px;
+
+}
+
+.navbar-trans{
+    background-color:white;
+    border-bottom:1px solid;
+    border-bottom-color:#1a237e;
+} 
+
+
+
+
+.modalforms .form-control{
+color:black;
+}
+
+
+
+.form-signin {
+  max-width: 330px;
+  padding: 15px;
+  margin: 0 auto;
+}
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+  margin-bottom: 10px;
+}
+.form-signin .checkbox {
+  font-weight: normal;
+}
+.form-signin .form-control {
+  position: relative;
+  height: auto;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form-signin .form-control:focus {
+  z-index: 2;
+}
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+
+}
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+
+}
+.form-horizontal input{
+  font-size: 16px;
+}
+.control-label{
+font-size: 16px;
+}
+
+.form-signin textarea {
+   font-size: 16px;
+
+}
+.form-signin select{
+  box-shadow: none;
+   border-top:transparent;
+   border-right:transparent;
+   border-left:transparent;
+   border-bottom:1px solid dimgray;
+   background:unset;
+  border-radius: 0;
+}
+
+   select:focus {
+     border-bottom: 1px solid #1a237e;
+     box-shadow: 0 1px 0 0 #1a237e;
+   }
+.button{
+    width:100%;
+    border-radius: 0 0 0 0 ;
+    margin-bottom:1vh;
+
+} 
+   /* label focus color */
+   .input-field input[type=text]:focus + label {
+     color: #000;
+   }
+
+      /* label underline focus color */
+   .input-field input[type=password]:focus {
+     border-bottom: 1px solid #1a237e;
+     box-shadow: 0 1px 0 0 #1a237e;
+   }
+
+
+
+   /* label underline focus color */
+   .input-field input[type=text]:focus {
+     border-bottom: 1px solid #1a237e;
+     box-shadow: 0 1px 0 0#1a237e;
+   }
+.bio{
+    min-height:50vh;
+    max-height:50vh;
+    overflow-y:scroll;
+    overflow-x: hidden;
+
+    border-bottom: 4px solid #1a237e;
+}
+.car{
+    font-family:'MAXWELL REGULAR';
+    font-size:23px;
+    color:black;
+    margin-left:1vw;
+}
+.accounts{
+    min-height:50vh;
+    max-height: 60hv;
+    height :60vh;
+    overflow-x:hidden;
+   margin-bottom: 2%;
+}
+.library{
+    min-height:50vh; 
+    height: 60vh;
+    max-height: 60vh;
+    margin-bottom: 2%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+}
+#unitreg{
+    margin-top:-2vh;
+    width:85%;
+    min-height:90%;
+}
+#noticeBoard{
+    margin-top: 1%;
+    width:95%;
+    min-height:88%;
+    
+}
+#schoolcalender{
+margin-top: 1%;
+width:85%;
+min-height:85%;
+overflow-x:hidden;
+overflow-y:scroll;
+}
+.well{
+  overflow-x: hidden;
+  overflow-y: scroll;
+  max-height: 40vh;
+}
+
+.customscrl::-webkit-scrollbar{
+width:4px;
+background-color:lightgray;
+}
+.customscrl::-webkit-scrollbar-thumb{
+background-color:#1a237e;
+
+}
+.customscrl::-webkit-scrollbar-thumb:hover{
+background-color:#1a237e;
+border:1px solid #333333;
+}
+.customscrl::-webkit-scrollbar-thumb:active{
+background-color:#1a237e;
+border:1px solid #333333;
+}
+
+.side{
+    font-size:18px;
+}
+.navbar-header{
+  margin-top: 2vh;
+}
+
+
+@media only screen and (max-width:1600px){
+.card-panel{
+  margin-left:-1.5vw;
+ 
+}
+.navbar-brand{
+    width:40px;
+    margin-top:-1vh;
+    margin-bottom:-1vh;
+}
+
+}  
+
+
+
+@media only screen and (max-width:979px){
+.card-panel{
+  margin-left:-1.5vw;
+ 
+}
+}
+
+
+@media only screen and (max-width:767px){
+.card-panel{
+  margin-left:-1.5vw;
+ 
+}
+}
+
+
+@media only screen and (max-width:480px){
+.card-panel{
+  margin-left:-1.5vw;
+ 
+}
+
+.bio{
+    min-height:60vh;
+    max-height:60vh;
+    overflow-y:scroll;
+    border-bottom: 4px solid #1a237e;
+}
+
+.accounts{
+    min-height:60vh;
+   
+}
+#messanger{
+    width: 100vw;
+    min-height: 100vh;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

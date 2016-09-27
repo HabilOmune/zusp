@@ -1,0 +1,25 @@
+﻿
+<div class="row" style="margin-top:4vh">
+    <div class="col-lg-offset-3 col-md-offset-3 col-sm-offset-3">
+        <div class="col-lg-9 col-md-9 col-sm-9 ">
+            <div class="btn-toolbar">
+                <div class="btn-group">
+                    <button class="btn btn-success" ng-click="changeView('agendaDay', 'myCalendar1')">AgendaDay</button>
+                    <button class="btn btn-success" ng-click="changeView('agendaWeek', 'myCalendar1')">AgendaWeek</button>
+                    <button class="btn btn-success" ng-click="changeView('month', 'myCalendar1')">Month</button>
+                </div>
+            </div>
+            <div class="calendar" ng-model="eventsSources" calendar="myCalendar1" ui-calendar="uiConfig.calendar"></div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
