@@ -1,4 +1,4 @@
-
+/**************************************************/
 
 
 var portal = angular.module('portal', ['ui.router', 'downloadcenter.controller', 'examreg.controller', 'landing.controller', 'accounts.controller', 'noticeboard.controller', 'results.controller', 'auth.controller', 'calender.controller', 'docs.controller', 'units.controller', 'library.controller', 'ui.materialize', 'ui.calendar', 'ui.bootstrap', 'backand', 'SimpleRESTIonic.services']);
