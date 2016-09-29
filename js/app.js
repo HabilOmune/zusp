@@ -5,13 +5,13 @@ var portal = angular.module('portal', ['ui.router', 'downloadcenter.controller',
 
  portal.run(function($rootScope,$state,AuthService){
   
-   /* localStorage.setItem("adm_no","B/0871/2013");*/
+   localStorage.setItem("adm_no","B/0871/2013");
     $rootScope.role = localStorage.getItem("role");
     if( $rootScope.role === "Admin"){
        $rootScope.rr = 1;
     }
     else{
-        console.log("esteem");
+       // console.log("esteem");
     }
  console.log($rootScope.role);
  AuthService.isAuthenticated();
@@ -31,7 +31,7 @@ portal.config(function ($stateProvider, $urlRouterProvider, BackandProvider) {
       BackandProvider.setSignUpToken('4f9da5d2-f553-41b5-94fa-f6ca0bf0ef15');
       BackandProvider.setAnonymousToken('8f3af7c5-d66b-4592-83ed-e3e1f56248ca');
     $urlRouterProvider.otherwise('/login');
-
+    $urlRouterProvider.otherwise('/main');
     $stateProvider
       .state('login', {
           url: '/login',
